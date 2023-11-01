@@ -1,7 +1,7 @@
 import os
 import asyncio
 import logging
-from config import Config
+from config import config
 from pyrogram import Client
 from rich.console import Console
 from rich.table import Table
