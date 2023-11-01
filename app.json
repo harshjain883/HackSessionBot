@@ -18,7 +18,7 @@
             "required": false
         },
      
-        "UPDATE_CHNL": {
+        "CHAT": {
             "description": "Your Updates Channel without @",
             "required": false
         },
