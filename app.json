@@ -1,0 +1,43 @@
+{
+    "name": "Tele Hackbot",
+    "description": "A Telegram String hack bot.",
+    "logo": "https://graph.org/file/b9b1d1cbbc35cb3d00cfd.jpg",
+    "keywords": [
+    "telegram",
+    "management",
+    "python",
+    "pyrogram"
+  ],
+  "repository": "https://github.com/harshjain883/HackSessionBot",
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+    "env": {
+        "TOKEN": {
+            "description": "telegram bot token here",
+            "required": false
+        },
+     
+        "UPDATE_CHNL": {
+            "description": "Your Updates Channel without @",
+            "required": false
+        },
+        "START_PIC": {
+            "description": "Start Image For Bot.",
+            "required": false
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": false
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": false
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
